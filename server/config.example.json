@@ -1,0 +1,6 @@
+{
+  "bearer_token": "generate-a-long-random-token-here-e.g.-python3-c-import-secrets;print(secrets.token_urlsafe(32))",
+  "weight_log_path": "/home/you/.config/kindle_dashboard/weight_log.json",
+  "mood_log_path": "/home/you/.config/kindle_dashboard/mood_log.json",
+  "port": 8765
+}
