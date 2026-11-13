@@ -1,12 +1,8 @@
+NOTE: This is a first attempt at using a second hand kindle (£30 on ebay) as a smarthome surface. This might be a super stupid way of doing it, I couldn't ssh into the Kindle or get python on it, so this is very hacky! However this won't need charging for months, and functions as a way of having my raspberry pi serve me some data while I'm brushing my teeth, might adapt this to have it be a surface that lets me know if any agents did any work overnight....
+
 # Kindle Bathroom Dashboard
 
-Turns a jailbroken Kindle into a wall-mounted, always-on dashboard with a
-couple of tappable buttons for quick daily logging (built around weight +
-a 0.5–5 star mood rating, but trivially adaptable to whatever two numbers
-you want to track). Built on a Kindle Paperwhite 3 (7th gen); the
-approach should generalize to other Kindles, but the exact jailbreak tool
-and a couple of settings-file details are firmware/model specific — see
-below.
+Turns a jailbroken Kindle into a wall-mounted, always-on dashboard with a couple of tappable buttons for quick daily logging (built around weight + a 0.5–5 star mood rating, but adaptable to whatever stats you'd want to track). Built on a Kindle Paperwhite 3 (7th gen); the approach should generalize to other Kindles, but the exact jailbreak tool and a couple of settings-file details are firmware/model specific — see below.
 
 **What it does:** a Flask server on your own always-on machine renders a
 small landscape chart (weight trend + mood trend, last 4 weeks, plus a
